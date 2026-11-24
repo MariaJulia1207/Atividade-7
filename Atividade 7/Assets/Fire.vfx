@@ -235,9 +235,9 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: 171
-      y: -428
+      y: -492
       width: 474
-      height: 1858
+      height: 2064
     contents:
     - model: {fileID: 8926484042661614820}
       id: 0
@@ -255,13 +255,10 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: -373
-      y: -642
+      y: -700
       width: 474
-      height: 1735
+      height: 2470
     contents:
-    - model: {fileID: 8926484042661615078}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661615108}
       id: 0
       isStickyNote: 0
@@ -274,22 +271,14 @@ MonoBehaviour:
     - model: {fileID: 8926484042661615208}
       id: 0
       isStickyNote: 0
-  - title: New Group Node
-    position:
-      serializedVersion: 2
-      x: -174
-      y: -739
-      width: 215
-      height: 84
-    contents: []
   stickyNoteInfos: []
   categories: []
   uiBounds:
     serializedVersion: 2
     x: -373
-    y: -739
+    y: -700
     width: 2026
-    height: 2509
+    height: 2470
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3976,7 +3965,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661615090}
-  m_UIPosition: {x: 196, y: -369}
+  m_UIPosition: {x: 196, y: -433}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -4743,7 +4732,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":-1.5,"y":2.5,"z":-1.0}}'
+      m_SerializableObject: '{"vector":{"x":-1.0,"y":2.5,"z":-1.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -4913,7 +4902,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":1.5,"y":5.0,"z":1.0}}'
+      m_SerializableObject: '{"vector":{"x":1.0,"y":5.5,"z":1.0}}'
     m_Space: 0
   m_Property:
     name: B
@@ -9253,7 +9242,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661615168}
-  m_UIPosition: {x: -348, y: -583}
+  m_UIPosition: {x: -348, y: -641}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
